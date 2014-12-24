@@ -1,15 +1,5 @@
 #!/bin/bash
 
-#Version 1.1
-
-#Changelog
-#    1.1 - now shows a loading bar in the terminal
-
-#Documentation
-#    Takes a <source> file, should be a png image.
-#    Also takes a <target> file, do not include the extension.
-#    Creates <target>.icns file from the given <source>.
-
 flag=false
 src="$1"
 chunk=$(printf "%-$((($(tput cols) - 15)/15))s" "#")
