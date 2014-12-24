@@ -4,7 +4,7 @@ mkicns
 A simple command line tool for creating Mac OS X icns files from standard images.
 
 COMPATIBILITY:
-	Works on any Mac with the following commandline tools: sips, iconutil
+	Should work on any Mac with the following commandline tools: sips, iconutil
 
 USAGE:
 	mkicns [-h] <source> <target>
